@@ -42,6 +42,7 @@ const Quiz = (props) => {
                     )
                 })}
             </div>
+            <h3>Score: {quizScore}</h3>
         </div>
     )
 
