@@ -1,17 +1,44 @@
 // import logo from '../assets/logo.svg';
 import { useState } from 'react';
 import Quiz from './Quiz';
+import { AnimalQuestions } from '../assets/Questions';
 import '../styles/App.css';
+
+export const shuffle = (array) => {
+  // Implementation of Fisher-Yates shuffle algorithm
+  let currentIndex = array.length;
+  let temporaryValue, randomIndex;
+
+  // While there remain elements to shuffle...
+  while (0 !== currentIndex) {
+    // Pick a remaining element...
+    randomIndex = Math.floor(Math.random() * currentIndex);
+    currentIndex -= 1;
+
+    // And swap it with the current element.
+    temporaryValue = array[currentIndex];
+    array[currentIndex] = array[randomIndex];
+    array[randomIndex] = temporaryValue;
+  }
+
+  return array;
+};
 
 const App = () => {
   const [selectionHidden, setSelectionHidden] = useState(false);
   const [quizCategory, setQuizCategory] = useState('');
+  const [quizQuestions, setQuizQuestions] = useState([]);
 
   const handleClick = (category) => {
     console.log(category);
     setQuizCategory(category);
+    if(category === "Animals") {
+      setQuizQuestions(shuffle(AnimalQuestions));
+    }
     toggleSelection();
   }
+
+
 
   function toggleSelection() {
     if (selectionHidden) {
@@ -33,7 +60,7 @@ const App = () => {
           <button className='science' type="submit" onClick={() => handleClick("Science")}>Science</button>
           <button className='sports' type="submit" onClick={() => handleClick("Sports")}>Sports</button>
         </div>
-        <Quiz category={quizCategory}/>
+        {(quizQuestions.length > 0) ? <Quiz category={quizCategory} questions={quizQuestions}/> : null}
       </div>
     </div>
   );
