@@ -1,7 +1,10 @@
 // import logo from '../assets/logo.svg';
 import '../styles/App.css';
 
-function App() {
+const App = () => {
+
+
+  
   return (
     <div className="App">
       <header className="App-header">
