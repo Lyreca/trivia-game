@@ -1,36 +1,130 @@
-export const AnimalQuestions = [  
-    [
-        "What animal is known as the “King of the Jungle”?", 
-        "Lion", 
-        ["Tiger", "Elephant", "Gorilla"]
-    ],
-    [
-        "Which bird is known for its ability to mimic human speech?", 
-        "Parrot", 
-        ["Pigeon", "Peacock", "Ostrich"]
-    ],
-    [
-        "What is the only continent where the polar bear can be found in the wild?", 
-        "North America", 
-        ["Asia", "Europe", "Antarctica"]
-    ],
-    [
-        "What is the largest mammal in the world?", 
-        "Blue Whale", 
-        ["African Elephant", "Hippopotamus", "Giraffe"]
-    ],
-    ["What type of animal is a Komodo dragon?", "Lizard", ["Snake", "Crocodile", "Alligator"]],
-    ["What is the fastest land animal in the world?", "Cheetah", ["Lion", "Tiger", "Leopard"]],
-    ["What is the tallest animal in the world?", "Giraffe", ["Elephant", "Hippopotamus", "Rhinoceros"]],
-    ["What is the smallest mammal in the world?", "Bumblebee Bat", ["Squirrel", "Mole", "Shrew"]],
-    ["What is the largest bird in the world?", "Ostrich", ["Emu", "Cassowary", "Penguin"]],
-    ["What is the most venomous animal in the world?", "Box Jellyfish", ["Black Widow Spider", "Deathstalker Scorpion", "Stonefish"]],
-    ["What is the slowest animal in the world?", "Sloth", ["Snail", "Slug", "Turtle"]],
-    ["What is the largest reptile in the world?", "Saltwater Crocodile", ["Nile Crocodile", "American Alligator", "Green Anaconda"]],
-    ["What animal is the only mammal that can fly?", "Bat", ["Flying Squirrel", "Sugar Glider", "Opossum"]],
-    ["What is the largest fish in the world?", "Whale Shark", ["Giant Squid", "Sperm Whale", "Bluefin Tuna"]],
-    ["What is the largest amphibian in the world?", "Chinese Giant Salamander", ["African Bullfrog", "Goliath Frog", "Hellbender"]]
-]
+export const AnimalQuestions = [
+  [
+    "What is the largest animal on earth?",
+    "Blue Whale",
+    ["Elephant", "Giraffe", "Hippopotamus"]
+  ],
+  [
+    "What is the fastest land animal?",
+    "Cheetah",
+    ["Lion", "Leopard", "Tiger"]
+  ],
+  [
+    "What is the largest bird in the world?",
+    "Ostrich",
+    ["Eagle", "Pelican", "Flamingo"]
+  ],
+  [
+    "What animal can change its color based on its mood?",
+    "Chameleon",
+    ["Iguana", "Gecko", "Lizard"]
+  ],
+  [
+    "What animal is known for sleeping up to 18 hours a day?",
+    "Sloth",
+    ["Koala", "Panda", "Gorilla"]
+  ],
+  [
+    "What animal can hold its breath for up to six minutes?",
+    "Hippopotamus",
+    ["Dolphin", "Whale", "Seal"]
+  ],
+  [
+    "What is the smallest mammal in the world?",
+    "Bumblebee Bat",
+    ["Mouse", "Shrew", "Rat"]
+  ],
+  [
+    "What is the largest reptile in the world?",
+    "Saltwater Crocodile",
+    ["Anaconda", "Komodo Dragon", "Alligator"]
+  ],
+  [
+    "What animal is known for carrying its babies in a pouch?",
+    "Kangaroo",
+    ["Koala", "Tasmanian Devil", "Wombat"]
+  ],
+  [
+    "What animal has the longest neck?",
+    "Giraffe",
+    ["Elephant", "Camel", "Horse"]
+  ],
+  [
+    "What animal is notorious for being able to play dead?",
+    "Opossum",
+    ["Raccoon", "Skunk", "Badger"]
+  ],
+  [
+    "What bird is the symbol of peace?",
+    "Dove",
+    ["Eagle", "Hawk", "Crow"]
+  ],
+  [
+    "What is the most venomous snake in the world?",
+    "Inland Taipan",
+    ["Black Mamba", "King Cobra", "Rattlesnake"]
+  ],
+  [
+    "What animal is known for being able to regrow its tail?",
+    "Lizard",
+    ["Frog", "Salamander", "Snail"]
+  ],
+  [
+    "What is the smallest bird in the world?",
+    "Bee Hummingbird",
+    ["Sparrow", "Finch", "Robin"]
+  ],
+  [
+    "What animal is the national symbol of Australia?",
+    "Kangaroo",
+    ["Koala", "Emu", "Wallaby"]
+  ],
+  [
+    "What animal is known for having the best eyesight?",
+    "Eagle",
+    ["Hawk", "Falcon", "Owl"]
+  ],
+  [
+    "What animal has the longest lifespan?",
+    "Giant Tortoise",
+    ["Elephant", "Whale", "Crocodile"]
+  ],
+  [
+    "What is the only mammal that can fly?",
+    "Bat",
+    ["Bird", "Insect", "Pterodactyl"]
+  ],
+  [
+    "What animal is known for being able to walk on water?",
+    "Basilisk Lizard",
+    ["Gecko", "Iguana", "Chameleon"]
+  ],
+  [
+    "What animal is the mascot for Kellogg's cereal?",
+    "Tony the Tiger",
+    ["Toucan Sam", "Snap, Crackle and Pop", "Dig 'Em Frog"]
+  ],
+  [
+    "What animal is known for being able to jump up to six times its own body length?",
+    "Flea",
+    ["Grasshopper", "Cricket", "Beetle"]
+  ],
+  [
+    "What is the largest land animal?",
+    "Elephant",
+    ["Giraffe", "Hippopotamus", "Rhino"]
+  ],
+  [
+    "What is the most intelligent animal in the world?",
+    "Dolphin",
+    ["Chimpanzee", "Elephant", "Octopus"]
+  ],
+  [
+    "What animal is known for being able to camouflauge itself to match its surroundings?",
+    "Octopus",
+    ["Squid", "Cuttlefish", "Nautilus"]
+  ]
+];
 
 export const HistoryQuestions = [
     [
