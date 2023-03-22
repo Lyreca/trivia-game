@@ -55,6 +55,7 @@ const Quiz = (props) => {
                 : 
                 <div className='App-final'>
                     <h2>Final Score: {quizScore}</h2>
+                    <button type='submit' onClick={() => window.location.reload()}>Play Again</button>
                 </div>
             }
         </div>
