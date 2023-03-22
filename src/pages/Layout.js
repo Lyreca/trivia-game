@@ -7,7 +7,7 @@ const Layout = () => {
       <nav>
         <ul>
           <li>
-            <Link to="/">Home</Link>
+            <button class='home-button' onClick={() => window.location.reload()}>Home</button>
           </li>
         </ul>
       </nav>
