@@ -47,6 +47,13 @@
   color: white;
 }
 
+.App-question-box {
+  background-color: #434957;
+  max-height: 100%;
+  border-radius: 20px;
+  padding: 50px;
+}
+
 .App-answers {
   display: flex;
   flex-direction: column;

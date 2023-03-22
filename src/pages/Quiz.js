@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { shuffle } from './App';
 import { useCookies } from 'react-cookie'
+import Fade from 'react-reveal/Fade'
 
 const Quiz = (props) => {
     const [quizNumber, setQuizNumber] = useState(0);
@@ -57,15 +58,19 @@ const Quiz = (props) => {
             {
             (quizNumber < props.questions.length) ?
                 <div className='App-questions'>
-                    <h2>Question {quizNumber+1}</h2>
-                    <h3>{props.questions[quizNumber][0]}</h3>
-                    <div className='App-answers'>
-                        {answerPool.map((answer, index) => {
-                            return (
-                                <button key={"answerBox" + index} className='quiz-answer-button' type="submit" onClick={() => setQuizAnswer(answer)}>{answer}</button>
-                            )
-                        })}
-                    </div>
+                    <Fade>
+                        <div className='App-question-box' key={"Question" + quizNumber}>
+                            <h3>Question {quizNumber+1}</h3>
+                            <h4>{props.questions[quizNumber][0]}</h4>
+                            <div className='App-answers'>
+                                {answerPool.map((answer, index) => {
+                                    return (
+                                        <button key={"answerBox" + index} className='quiz-answer-button' type="submit" onClick={() => setQuizAnswer(answer)}>{answer}</button>
+                                    )
+                                })}
+                            </div>
+                        </div>
+                    </Fade>
                     <h3>Score: {quizScore}</h3>
                 </div>
                 : 
