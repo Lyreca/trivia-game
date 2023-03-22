@@ -34,7 +34,6 @@ const Quiz = (props) => {
         }
         // Win condition
         else {
-            // setQuizNumber(quizNumber+1);
             if (cookies.highScore === undefined) {
                 setCookie('highScore', { [props.category]: quizScore }, { path: '/' });
             }
