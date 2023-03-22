@@ -78,7 +78,7 @@
   border: none;
   color: white;
   padding: 30px 40px;
-  width: 40vw;
+  width: 40vw; 
   max-width: 400px;
   text-align: center;
   text-decoration: none;
@@ -90,6 +90,13 @@
   border-radius: 10px;
   font-size: 1em;
   margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .quiz-answer-button, .App-selection button {
+    width: 80vw;
+    padding: 20px 30px;
+  }
 }
 
 .home-button {
