@@ -74,7 +74,7 @@ const Quiz = (props) => {
                     <h3>Score: {quizScore}</h3>
                 </div>
                 : 
-                <div className='App-final'>
+                <div className='App-question-box'>
                     <h2>Final Score: {quizScore}</h2>
                     <h3>High Score: {(cookies.highScore === undefined) ? 0 : cookies.highScore[props.category]}</h3>
                     <button type='submit' className='quiz-answer-button' onClick={() => window.location.reload()}>Play Again</button>
