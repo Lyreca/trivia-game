@@ -1,11 +1,13 @@
 import { useEffect, useState } from 'react';
 import { shuffle } from './App';
+import { useCookies } from 'react-cookie'
 
 const Quiz = (props) => {
     const [quizNumber, setQuizNumber] = useState(0);
     const [quizScore, setQuizScore] = useState(0);
     const [quizAnswer, setQuizAnswer] = useState('');
     const [answerPool, setAnswerPool] = useState([]);
+    const [cookies, setCookie] = useCookies(['highScore']);
 
     useEffect(() => {
         if(quizNumber < props.questions.length) {
@@ -30,11 +32,20 @@ const Quiz = (props) => {
                 setQuizAnswer('');
             }
         }
+        // Win condition
         else {
-            setQuizNumber(quizNumber+1);
+            // setQuizNumber(quizNumber+1);
+            if (cookies.highScore === undefined) {
+                setCookie('highScore', { [props.category]: quizScore }, { path: '/' });
+            }
+            else {
+                if (quizScore > cookies.highScore[props.category]) {
+                    setCookie('highScore', { [props.category]: quizScore }, { path: '/' });
+                }
+            }
         }
         
-    }, [quizNumber, props.questions, quizAnswer, quizScore]);
+    }, [quizNumber, props.questions, quizAnswer, quizScore, cookies, setCookie, props.category]);
 
     return (
         <div>
@@ -55,7 +66,8 @@ const Quiz = (props) => {
                 : 
                 <div className='App-final'>
                     <h2>Final Score: {quizScore}</h2>
-                    <button type='submit' onClick={() => window.location.reload()}>Play Again</button>
+                    <h3>High Score: {(cookies.highScore === undefined) ? 0 : cookies.highScore[props.category]}</h3>
+                    <button type='submit' className='quiz-answer-button' onClick={() => window.location.reload()}>Play Again</button>
                 </div>
             }
         </div>

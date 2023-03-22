@@ -6,18 +6,21 @@ import App from './pages/App';
 import Layout from './pages/Layout';
 import NoPage from './pages/NoPage';
 import reportWebVitals from './reportWebVitals';
+import { CookiesProvider } from 'react-cookie';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Layout/>}>
-          <Route index element={<App/>}/>
-          <Route path="*" element={<NoPage/>}/>
-        </Route>
-      </Routes>
-    </BrowserRouter>
+    <CookiesProvider>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Layout/>}>
+            <Route index element={<App/>}/>
+            <Route path="*" element={<NoPage/>}/>
+          </Route>
+        </Routes>
+      </BrowserRouter>
+    </CookiesProvider>
   </React.StrictMode>
 );
 

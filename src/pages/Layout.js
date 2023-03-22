@@ -1,4 +1,4 @@
-import { Outlet, Link } from "react-router-dom";
+import { Outlet } from "react-router-dom";
 import '../styles/Layout.css'
 
 const Layout = () => {
@@ -7,7 +7,7 @@ const Layout = () => {
       <nav>
         <ul>
           <li>
-            <button class='home-button' onClick={() => window.location.reload()}>Home</button>
+            <button className='home-button' onClick={() => window.location.reload()}>Home</button>
           </li>
         </ul>
       </nav>
