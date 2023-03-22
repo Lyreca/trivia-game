@@ -39,8 +39,14 @@ const Quiz = (props) => {
                 setCookie('highScore', { [props.category]: quizScore }, { path: '/' });
             }
             else {
-                if (quizScore > cookies.highScore[props.category]) {
-                    setCookie('highScore', { [props.category]: quizScore }, { path: '/' });
+                let temp = {...cookies.highScore};
+                if(!(props.category in temp)) {
+                    temp[props.category] = quizScore;
+                    setCookie('highScore', temp, { path: '/' });
+                }
+                else if (quizScore > temp[props.category]) {
+                    temp[props.category] = quizScore;
+                    setCookie('highScore', temp, { path: '/' });
                 }
             }
         }
