@@ -1,7 +1,7 @@
 // import logo from '../assets/logo.svg';
 import { useState } from 'react';
 import Quiz from './Quiz';
-import { AnimalQuestions } from '../assets/Questions';
+import { AnimalQuestions, HistoryQuestions, ScienceQuestions, SportsQuestions } from '../assets/Questions';
 import '../styles/App.css';
 
 export const shuffle = (array) => {
@@ -32,8 +32,22 @@ const App = () => {
   const handleClick = (category) => {
     console.log(category);
     setQuizCategory(category);
-    if(category === "Animals") {
-      setQuizQuestions(shuffle(AnimalQuestions));
+
+    switch(category){
+      case "Animals":
+        setQuizQuestions(shuffle(AnimalQuestions));
+        break;
+      case "History":
+        setQuizQuestions(shuffle(HistoryQuestions));
+        break;
+      case "Science":
+        setQuizQuestions(shuffle(ScienceQuestions));
+        break;
+      case "Sports":
+        setQuizQuestions(shuffle(SportsQuestions));
+        break;
+      default:
+        break;
     }
     toggleSelection();
   }
