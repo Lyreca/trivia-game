@@ -46,7 +46,7 @@ const Quiz = (props) => {
                     <div className='App-answers'>
                         {answerPool.map((answer, index) => {
                             return (
-                                <button key={"answerBox" + index} className='quiz-answer' type="submit" onClick={() => setQuizAnswer(answer)}>{answer}</button>
+                                <button key={"answerBox" + index} className='quiz-answer-button' type="submit" onClick={() => setQuizAnswer(answer)}>{answer}</button>
                             )
                         })}
                     </div>
