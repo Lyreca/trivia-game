@@ -217,7 +217,7 @@ export const HistoryQuestions = [
         "England and France",
         ["Spain and Portugal", "Germany and Austria", "Italy and Greece"]
       ],
-    ]
+];
 
 export const ScienceQuestions =  [
     [
@@ -473,4 +473,160 @@ export const SportsQuestions = [
       "United States",
       ["China", "Great Britain", "Russia"]
     ]
-  ];
+];
+
+export const ChemistryQuestions = [
+	[
+		'What is the chemical symbol for Iron?',
+		'Fe',
+		['Si', 'Ar', 'Pb']
+	],
+	[
+		'What is the chemical formula for the compound Calcium Carbonate?',
+		'CaCO3',
+		['CaC2O3', 'CaClO3', 'CaCO2']
+	],
+	[
+		'What is the chemical formula for water?',
+		'H2O',
+		['H3O', 'H2CO3', 'H2O2']
+	],
+	[
+		'What is the chemical formula for ammonia?',
+		'NH3',
+		['NH2', 'NH4', 'N2H3']
+	],
+	[
+		'What is the chemical formula for Carbon Dioxide?',
+		'CO2',
+		['CO3', 'C2O2', 'C2H4']
+	],
+	[
+		'What is the chemical symbol for Oxygen?',
+		'O',
+		['K', 'Ca', 'N']
+	],
+	[
+		'What is the chemical formula for Sodium Chloride?',
+		'NaCl',
+		['NaCO3', 'NaOH', 'NaNO3']
+	],
+	[
+		'What is the chemical symbol for Hydrogen?',
+		'H',
+		['C', 'F', 'P']
+	],
+	[
+		'What is the chemical formula for Magnesium Oxide?',
+		'MgO',
+		['MgOH', 'MgCl2', 'MgCO2']
+	],
+	[
+		'What is the chemical formula for Potassium Chloride?',
+		'KCl',
+		['KCO3', 'KOH', 'KNO3']
+	],
+	[
+		'What is the chemical symbol for Copper?',
+		'Cu',
+		['Fe', 'Pb', 'Na']
+	],
+	[
+		'What is the chemical formula for Zinc Sulfate?',
+		'ZnSO4',
+		['ZnCO3', 'ZnOH', 'ZnNO3']
+	],
+	[
+		'What is the chemical symbol for Gold?',
+		'Au',
+		['Ag', 'Pt', 'Fe']
+	],
+	[
+		'What is the chemical formula for Ammonium Chloride?',
+		'NH4Cl',
+		['NH3Cl', 'NH2Cl2', 'NH2CO3']
+	],
+	[
+		'What is the chemical symbol for Silver?',
+		'Ag',
+		['Au', 'Cu', 'Fe']
+	]
+];
+
+export const FootballQuestions = [
+	[
+		"Which team won Super Bowl LIII in 2019?", 
+		"New England Patriots", 
+		["Los Angeles Rams", "Kansas City Chiefs", "Philadelphia Eagles"]
+	],
+	[
+		"How many points is a touchdown worth?",
+		"Six",
+		["Two", "Four", "Eight"]
+	],
+	[
+		"Which team won the most Super Bowls?",
+		"Pittsburgh Steelers",
+		["Dallas Cowboys", "San Francisco 49ers", "New England Patriots"]
+	],
+	[
+		"What is the name of the football stadium in Green Bay, Wisconsin?",
+		"Lambeau Field",
+		["Soldier Field", "Heinz Field", "AT&T Stadium"]
+	],
+	[
+		"What is the name of the trophy awarded to the winner of the Super Bowl?",
+		"Vince Lombardi Trophy",
+		["Lombardi Trophy", "Lamar Hunt Trophy", "Stanley Cup"]
+	],
+	[
+		"Which team won the first Super Bowl?",
+		"Green Bay Packers",
+		["New York Giants", "Baltimore Colts", "New England Patriots"]
+	],
+	[
+		"What is the name of the NFL's championship game?",
+		"Super Bowl",
+		["Big Game", "Pro Bowl", "Champions Bowl"]
+	],
+	[
+		"What is the name of the Dallas Cowboys' stadium?",
+		"AT&T Stadium",
+		["Lambeau Field", "Heinz Field", "Soldier Field"]
+	],
+	[
+		"What is the name of the New Orleans Saints' stadium?",
+		"Mercedes-Benz Superdome",
+		["Lambeau Field", "Heinz Field", "AT&T Stadium"]
+	],
+	[
+		"Which team won Super Bowl XLVII in 2013?",
+		"Baltimore Ravens",
+		["San Francisco 49ers", "New England Patriots", "Green Bay Packers"]
+	],
+	[
+		"Which team won Super Bowl XLV in 2011?",
+		"Green Bay Packers",
+		["Pittsburgh Steelers", "New York Giants", "New England Patriots"]
+	],
+	[
+		"How many teams are in the NFL?",
+		"Thirty-two",
+		["Sixteen", "Twenty", "Twenty-four"]
+	],
+	[
+		"Who has won the most MVP awards in the NFL?",
+		"Peyton Manning",
+		["Tom Brady", "Brett Favre", "John Elway"]
+	],
+	[
+		"What is the name of the trophy awarded to the NFL's regular season champion?",
+		"Lamar Hunt Trophy",
+		["Lombardi Trophy", "Vince Lombardi Trophy", "Stanley Cup"]
+	],
+	[
+		"What is the name of the stadium used for the annual Army-Navy Game?",
+		"Lincoln Financial Field",
+		["Heinz Field", "AT&T Stadium", "Lambeau Field"]
+	]
+];
