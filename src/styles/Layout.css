@@ -7,6 +7,12 @@ ul {
     list-style-type: none;
 }
 
+@media screen and (max-width: 768px) {
+    ul {
+        padding: 0px 0px 0px 10px;
+    }
+}
+
 li {
     display: inline;
     margin-left: 20px;
