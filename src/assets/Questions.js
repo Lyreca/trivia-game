@@ -630,3 +630,21 @@ export const FootballQuestions = [
 		["Heinz Field", "AT&T Stadium", "Lambeau Field"]
 	]
 ];
+
+export const ITQuestions = [
+    ["What type of language is JavaScript?", "Programming Language", ["Database Language", "Markup Language", "Operating System"]],
+    ["What is the primary purpose of Wi-Fi?", "Wireless Networking", ["File Storage", "Video Streaming", "Data Encryption"]],
+    ["What does the acronym RAM stand for?", "Random Access Memory", ["Read-only Memory", "Redundant Array of Memory", "Real Asset Management"]],
+    ["What type of software is Microsoft Word?", "Word Processor", ["Spreadsheet Program", "Database Management System", "Graphics Editing Software"]],
+    ["What is the main function of a computer's operating system?", "Manage Hardware and Software Resources", ["Compress Files", "Create Documents", "Create Graphs"]],
+    ["What is the purpose of an HTML tag?", "Formatting Text and Inserting Content", ["Compressing Files", "Creating Databases", "Creating Graphs"]],
+    ["What type of language is HTML?", "Markup Language", ["Programming Language", "Operating System", "Database Language"]],
+    ["What is the main function of a computer's CPU?", "Process Data", ["Store Data", "Display Data", "Transfer Data"]],
+    ["What type of software is Adobe Photoshop?", "Graphics Editing Software", ["Word Processor", "Spreadsheet Program", "Database Management System"]],
+    ["What does the acronym GPU stand for?", "Graphics Processing Unit", ["Global Processing Unit", "General Processing Unit", "Graphical Processing Unit"]],
+    ["What type of language is C++?", "Programming Language", ["Markup Language", "Operating System", "Database Language"]],
+    ["What is the purpose of an IP address?", "Identify a Network Device", ["Store Data", "Process Data", "Display Data"]],
+    ["What is the main function of a computer's hard drive?", "Store Data", ["Process Data", "Display Data", "Transfer Data"]],
+    ["What type of software is Microsoft Excel?", "Spreadsheet Program", ["Word Processor", "Database Management System", "Graphics Editing Software"]],
+    ["What type of language is SQL?", "Database Language", ["Programming Language", "Markup Language", "Operating System"]]
+];

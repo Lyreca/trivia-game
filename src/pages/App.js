@@ -1,7 +1,7 @@
 // import logo from '../assets/logo.svg';
 import { useState } from 'react';
 import Quiz from './Quiz';
-import { AnimalQuestions, HistoryQuestions, ScienceQuestions, SportsQuestions, ChemistryQuestions, FootballQuestions } from '../assets/Questions';
+import { AnimalQuestions, HistoryQuestions, ScienceQuestions, SportsQuestions, ChemistryQuestions, FootballQuestions, ITQuestions } from '../assets/Questions';
 import '../styles/App.css';
 
 export const shuffle = (array) => {
@@ -52,6 +52,9 @@ const App = () => {
       case "Football":
         setQuizQuestions(shuffle(FootballQuestions));
         break;
+      case "IT":
+        setQuizQuestions(shuffle(ITQuestions));
+        break;
       default:
         break;
     }
@@ -85,6 +88,7 @@ const App = () => {
             <button className='sports' type="submit" onClick={() => handleClick("Sports")}>Sports &#127944;</button>
             <button className='chemistry' type="submit" onClick={() => handleClick("Chemistry")}>Chemistry</button>
             <button className='football' type="submit" onClick={() => handleClick("Football")}>Football &#127944;</button>
+            <button className='it' type="submit" onClick={() => handleClick("IT")}>IT &#128187;</button>
           </div>
         }
       </div>
