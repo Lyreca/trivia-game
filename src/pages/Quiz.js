@@ -56,7 +56,7 @@ const Quiz = (props) => {
             }
         }
         
-    }, [quizNumber, props.questions, quizAnswer, quizScore, cookies, setCookie, props.category]);
+    }, [quizNumber, props.questions, quizAnswer, quizScore, quizResults, cookies, setCookie, props.category]);
 
     return (
         <div>
