@@ -60,6 +60,56 @@
   justify-content: center;
 }
 
+.App-results table {
+  text-align: left;
+  font-size: 0.5em;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+.App-results table caption {
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 10px 0;
+}
+
+.App-results table tbody {
+  display: block;
+  width: 100%;
+  overflow: auto;
+  height: 300px;
+}
+
+.App-results table thead {
+  display: table-header-group;
+  width: 400px;
+}
+
+.App-results table thead tr {
+  display: block;
+}
+
+.App-results th, .App-results td {
+  padding: 5px;
+  text-align: left;
+}
+
+.App-results th:nth-child(1), .App-results td:nth-child(1) {
+  width: 350px;
+}
+
+.App-results th:nth-child(2), .App-results td:nth-child(2) {
+  width: 20px;
+}
+
+.App-results th:nth-child(3), .App-results td:nth-child(3) {
+  width: 100px;
+}
+
+.App-results table td {
+  border-top: 1px solid #ddd;
+}
+
 .App-link {
   color: #61dafb;
 }
@@ -108,6 +158,41 @@ h4 {
   .quiz-answer-button, .App-selection button {
     width: 80vw;
     padding: 20px 30px;
+  }
+
+  .App-question-box {
+    background-color: #434957;
+    max-height: 100%;
+    border-radius: 20px;
+    padding: 10px 20px 20px 20px;
+  }
+
+  .App-results table {
+    text-align: left;
+    font-size: 0.65em;
+    border-collapse: collapse;
+    table-layout: fixed;
+  }
+
+  .App-results th, .App-results td {
+    padding: 2.5px;
+    text-align: left;
+  }
+
+  .App-results th:nth-child(1), .App-results td:nth-child(1) {
+    width: 140px;
+  }
+  
+  .App-results th:nth-child(2), .App-results td:nth-child(2) {
+    width: 10px;
+  }
+  
+  .App-results th:nth-child(3), .App-results td:nth-child(3) {
+    width: 50px;
+  }
+
+  .App-results th:nth-child(4), .App-results td:nth-child(4) {
+    width: 50px;
   }
 }
 

@@ -7,6 +7,7 @@ const Quiz = (props) => {
     const [quizNumber, setQuizNumber] = useState(0);
     const [quizScore, setQuizScore] = useState(0);
     const [quizAnswer, setQuizAnswer] = useState('');
+    const [quizResults, setQuizResults] = useState([]);
     const [answerPool, setAnswerPool] = useState([]);
     const [cookies, setCookie] = useCookies(['highScore']);
 
@@ -29,6 +30,10 @@ const Quiz = (props) => {
                 else {
                     // alert('Incorrect!')
                 }
+                let temp = [...quizResults];
+
+                temp.push(quizAnswer);
+                setQuizResults(temp);
                 setQuizNumber(quizNumber + 1);
                 setQuizAnswer('');
             }
@@ -75,9 +80,34 @@ const Quiz = (props) => {
                 </div>
                 : 
                 <div className='App-question-box'>
-                    <h2>Final Score: {quizScore}</h2>
+                    <h2>Final Score: {quizScore}/{props.questions.length}</h2>
                     <h3>High Score: {(cookies.highScore === undefined) ? 0 : cookies.highScore[props.category]}</h3>
                     <button type='submit' className='quiz-answer-button' onClick={() => window.location.reload()}>Play Again</button>
+                    <div className='App-results'>
+                        <table>
+                            <caption><strong>Overview</strong></caption>
+                            <thead>
+                                <tr>
+                                    <th>Question</th>
+                                    <th>&#10067;</th>
+                                    <th>Answer</th>
+                                    <th>Correct Answer</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {quizResults.map((result, index) => {
+                                    return (
+                                        <tr key={"result" + index}>
+                                            <td>{props.questions[index][0]}</td>
+                                            <td>{(result === props.questions[index][1]) ? <p>&#9989;</p> : <p>&#10060;</p> }</td>
+                                            <td>{result}</td>
+                                            <td>{(result === props.questions[index][1]) ? "-" : props.questions[index][1]}</td>
+                                        </tr>
+                                    )
+                                })}
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
             }
         </div>
