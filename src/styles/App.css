@@ -126,12 +126,12 @@
 }
 
 .App-results table tr th:nth-child(1), .App-results table tr td:nth-child(1) {
-  width: 45%;
+  width: 5%;
+  justify-content: center;
 }
 
 .App-results table tr th:nth-child(2), .App-results table tr td:nth-child(2) {
-  width: 5%;
-  justify-content: center;
+  width: 45%;
 }
 
 .App-results table tr th:nth-child(3), .App-results table tr td:nth-child(3) {

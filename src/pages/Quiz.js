@@ -88,20 +88,21 @@ const Quiz = (props) => {
                             <caption><strong>Overview</strong></caption>
                             <thead>
                                 <tr>
-                                    <th>Question</th>
                                     <th>&#10067;</th>
-                                    <th>Answer</th>
+                                    <th>Question</th>
                                     <th>Correct Answer</th>
+                                    <th>Your Answer</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 {quizResults.map((result, index) => {
                                     return (
                                         <tr key={"result" + index}>
-                                            <td>{props.questions[index][0]}</td>
+                                            
                                             <td>{(result === props.questions[index][1]) ? <p>&#9989;</p> : <p>&#10060;</p> }</td>
+                                            <td>{props.questions[index][0]}</td>
+                                            <td>{props.questions[index][1]}</td>
                                             <td>{result}</td>
-                                            <td>{(result === props.questions[index][1]) ? "-" : props.questions[index][1]}</td>
                                         </tr>
                                     )
                                 })}
