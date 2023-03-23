@@ -180,19 +180,19 @@ h4 {
   }
 
   .App-results th:nth-child(1), .App-results td:nth-child(1) {
-    width: 140px;
+    width: 50%;
   }
   
   .App-results th:nth-child(2), .App-results td:nth-child(2) {
-    width: 10px;
+    width: 7%;
   }
   
   .App-results th:nth-child(3), .App-results td:nth-child(3) {
-    width: 50px;
+    width: 22%;
   }
 
-  .App-results th:nth-child(4), .App-results td:nth-child(4) {
-    width: 50px;
+  .App-results th:nth-child(3), .App-results td:nth-child(3) {
+    width: 22%;
   }
 }
 
