@@ -65,8 +65,8 @@ const Quiz = (props) => {
                 <div className='App-questions'>
                     <Fade>
                         <div className='App-question-box' key={"Question" + quizNumber}>
-                            <h3>Question {quizNumber+1}</h3>
-                            <h4>{props.questions[quizNumber][0]}</h4>
+                            <h3>Question {quizNumber+1} out of {props.questions.length}</h3>
+                            <h4>Q{quizNumber+1}. {props.questions[quizNumber][0]}</h4>
                             <div className='App-answers'>
                                 {answerPool.map((answer, index) => {
                                     return (
@@ -76,7 +76,6 @@ const Quiz = (props) => {
                             </div>
                         </div>
                     </Fade>
-                    <h3>Score: {quizScore}</h3>
                 </div>
                 : 
                 <div className='App-question-box'>
