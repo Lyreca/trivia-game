@@ -100,7 +100,7 @@ const Quiz = (props) => {
                                         <tr key={"result" + index}>
                                             
                                             <td>{(result === props.questions[index][1]) ? <p>&#9989;</p> : <p>&#10060;</p> }</td>
-                                            <td>{props.questions[index][0]}</td>
+                                            <td>{index+1}. {props.questions[index][0]}</td>
                                             <td>{props.questions[index][1]}</td>
                                             <td>{result}</td>
                                         </tr>
