@@ -632,21 +632,81 @@ export const FootballQuestions = [
 ];
 
 export const ITQuestions = [
-    ["What type of language is JavaScript?", "Programming Language", ["Database Language", "Markup Language", "Operating System"]],
-    ["What is the primary purpose of Wi-Fi?", "Wireless Networking", ["File Storage", "Video Streaming", "Data Encryption"]],
-    ["What does the acronym RAM stand for?", "Random Access Memory", ["Read-only Memory", "Redundant Array of Memory", "Real Asset Management"]],
-    ["What type of software is Microsoft Word?", "Word Processor", ["Spreadsheet Program", "Database Management System", "Graphics Editing Software"]],
-    ["What is the main function of a computer's operating system?", "Manage Hardware and Software Resources", ["Compress Files", "Create Documents", "Create Graphs"]],
-    ["What is the purpose of an HTML tag?", "Formatting Text and Inserting Content", ["Compressing Files", "Creating Databases", "Creating Graphs"]],
-    ["What type of language is HTML?", "Markup Language", ["Programming Language", "Operating System", "Database Language"]],
-    ["What is the main function of a computer's CPU?", "Process Data", ["Store Data", "Display Data", "Transfer Data"]],
-    ["What type of software is Adobe Photoshop?", "Graphics Editing Software", ["Word Processor", "Spreadsheet Program", "Database Management System"]],
-    ["What does the acronym GPU stand for?", "Graphics Processing Unit", ["Global Processing Unit", "General Processing Unit", "Game Processing Unit"]],
-    ["What type of language is C++?", "Programming Language", ["Markup Language", "Operating System", "Database Language"]],
-    ["What is the purpose of an IP address?", "Identify a Network Device", ["Store Data", "Process Data", "Display Data"]],
-    ["What is the main function of a computer's hard drive?", "Store Data", ["Process Data", "Display Data", "Transfer Data"]],
-    ["What type of software is Microsoft Excel?", "Spreadsheet Program", ["Word Processor", "Database Management System", "Graphics Editing Software"]],
-    ["What type of language is SQL?", "Database Language", ["Programming Language", "Markup Language", "Operating System"]]
+  [
+    "What does HTML stand for?",
+    "Hypertext Markup Language",
+    ["Hyper Technology Markup Language", "Hyperlink Text Management Language", "High Tech Multimedia Language"]
+  ],
+  [
+    "What is the name of the first computer virus?",
+    "The Creeper Virus",
+    ["The Morris Worm", "The ILOVEYOU Virus", "Stuxnet"]
+  ],
+  [
+    "What does CSS stand for?",
+    "Cascading Style Sheets",
+    ["Creative Style Sheets", "Computer Scripting System", "Cascading Script Sheets"]
+  ],
+  [
+    "What is the name of the first web browser?",
+    "WorldWideWeb",
+    ["Netscape Navigator", "Internet Explorer", "Mozilla Firefox"]
+  ],
+  [
+    "What does TCP/IP stand for?",
+    "Transmission Control Protocol/Internet Protocol",
+    ["Transportation Control Protocol/Internet Protocol", "Technical Control Protocol/Internet Protocol", "Transmission Control Program/Internet Program"]
+  ],
+  [
+    "What is the name of the first search engine?",
+    "Archie",
+    ["Google", "Yahoo", "Bing"]
+  ],
+  [
+    "What does FTP stand for?",
+    "File Transfer Protocol",
+    ["File Transmission Protocol", "File Transport Process", "File Transfer Process"]
+  ],
+  [
+    "What is the name of the first computer?",
+    "ENIAC",
+    ["Apple I", "IBM PC", "Commodore 64"]
+  ],
+  [
+    "What does PHP stand for?",
+    "Hypertext Preprocessor",
+    ["Personal Home Page", "Programming Hypertext Pages", "Preprocessed Hypertext Pages"]
+  ],
+  [
+    "What is the name of the first programming language?",
+    "Fortran",
+    ["Cobol", "Lisp", "Basic"]
+  ],
+  [
+    "What does URL stand for?",
+    "Uniform Resource Locator",
+    ["Universal Resource Locator", "Uniform Request Locator", "Unified Resource Link"]
+  ],
+  [
+    "What is the name of the first email program?",
+    "MAIL",
+    ["Outlook", "Gmail", "Thunderbird"]
+  ],
+  [
+    "What does XML stand for?",
+    "eXtensible Markup Language",
+    ["eXtensible Multimedia Language", "Extended Markup Language", "Extended Multimedia Language"]
+  ],
+  [
+    "What is the name of the first computer mouse?",
+    "Xerox PARC",
+    ["Apple Mighty Mouse", "Microsoft IntelliMouse", "Logitech MX Master"]
+  ],
+  [
+    "What does SQL stand for?",
+    "Structured Query Language",
+    ["Structured Question Language", "System Query Language", "Software Query Language"]
+  ]
 ];
 
 export const CarQuestions = [
@@ -661,14 +721,14 @@ export const CarQuestions = [
     ["Ford Mustang Mach-E", "Lucid Air", "Rivian R1T"]
   ],
   [
-    "What is the name of the car that was designed by Lamborghini and built by Audi?",
-    "Audi R8",
-    ["Lamborghini Huracan", "Audi RS7", "Lamborghini Aventador"]
+    "What is the name of the first car to feature active aerodynamics?",
+    "Porsche 959",
+    ["Ferrari F40", "Lamborghini Countach", "McLaren F1"]
   ],
   [
-    "What is the name of the car that was built to commemorate the 100th anniversary of BMW?",
-    "BMW i8",
-    ["BMW M8", "BMW Z8", "BMW 8 Series"]
+    "What is the name of the first car to feature a turbocharged engine?",
+    "Oldsmobile Jetfire",
+    ["Pontiac Firebird", "Chevrolet Camaro", "Ford Mustang"]
   ],
   [
     "What is the name of the car that is often referred to as the 'Godzilla'?",
@@ -691,7 +751,7 @@ export const CarQuestions = [
     ["Diablo", "Murciélago", "Aventador"]
   ],
   [
-    "What is the name of the car that was produced by Porsche from 1964 to 1969 and is regarded as the first Porsche sports car?",
+    "What is the name of the car that was produced by Porsche from 1964 to present day and is regarded as the first Porsche sports car?",
     "Porsche 911",
     ["Porsche 356", "Porsche 944", "Porsche 928"]
   ],
@@ -726,3 +786,4 @@ export const CarQuestions = [
     ["Chevrolet Silverado Trail Boss", "Ram 1500 Rebel", "Toyota Tundra TRD Pro"]
   ]
 ];
+
