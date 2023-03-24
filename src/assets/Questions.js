@@ -347,6 +347,84 @@ export const ScienceQuestions =  [
     ]
 ];
 
+export const ChemistryQuestions = [
+	[
+		'What is the chemical symbol for Iron?',
+		'Fe',
+		['Si', 'Ar', 'Pb']
+	],
+	[
+		'What is the chemical formula for the compound Calcium Carbonate?',
+		'CaCO3',
+		['CaC2O3', 'CaClO3', 'CaCO2']
+	],
+	[
+		'What is the chemical formula for water?',
+		'H2O',
+		['H3O', 'H2CO3', 'H2O2']
+	],
+	[
+		'What is the chemical formula for ammonia?',
+		'NH3',
+		['NH2', 'NH4', 'N2H3']
+	],
+	[
+		'What is the chemical formula for Carbon Dioxide?',
+		'CO2',
+		['CO3', 'C2O2', 'C2H4']
+	],
+	[
+		'What is the chemical symbol for Oxygen?',
+		'O',
+		['K', 'Ca', 'N']
+	],
+	[
+		'What is the chemical formula for Sodium Chloride?',
+		'NaCl',
+		['NaCO3', 'NaOH', 'NaNO3']
+	],
+	[
+		'What is the chemical symbol for Hydrogen?',
+		'H',
+		['C', 'F', 'P']
+	],
+	[
+		'What is the chemical formula for Magnesium Oxide?',
+		'MgO',
+		['MgOH', 'MgCl2', 'MgCO2']
+	],
+	[
+		'What is the chemical formula for Potassium Chloride?',
+		'KCl',
+		['KCO3', 'KOH', 'KNO3']
+	],
+	[
+		'What is the chemical symbol for Copper?',
+		'Cu',
+		['Fe', 'Pb', 'Na']
+	],
+	[
+		'What is the chemical formula for Zinc Sulfate?',
+		'ZnSO4',
+		['ZnCO3', 'ZnOH', 'ZnNO3']
+	],
+	[
+		'What is the chemical symbol for Gold?',
+		'Au',
+		['Ag', 'Pt', 'Fe']
+	],
+	[
+		'What is the chemical formula for Ammonium Chloride?',
+		'NH4Cl',
+		['NH3Cl', 'NH2Cl2', 'NH2CO3']
+	],
+	[
+		'What is the chemical symbol for Silver?',
+		'Ag',
+		['Au', 'Cu', 'Fe']
+	]
+];
+
 export const SportsQuestions = [
     [
       "What country has won the most soccer World Cups?",
@@ -475,82 +553,132 @@ export const SportsQuestions = [
     ]
 ];
 
-export const ChemistryQuestions = [
-	[
-		'What is the chemical symbol for Iron?',
-		'Fe',
-		['Si', 'Ar', 'Pb']
-	],
-	[
-		'What is the chemical formula for the compound Calcium Carbonate?',
-		'CaCO3',
-		['CaC2O3', 'CaClO3', 'CaCO2']
-	],
-	[
-		'What is the chemical formula for water?',
-		'H2O',
-		['H3O', 'H2CO3', 'H2O2']
-	],
-	[
-		'What is the chemical formula for ammonia?',
-		'NH3',
-		['NH2', 'NH4', 'N2H3']
-	],
-	[
-		'What is the chemical formula for Carbon Dioxide?',
-		'CO2',
-		['CO3', 'C2O2', 'C2H4']
-	],
-	[
-		'What is the chemical symbol for Oxygen?',
-		'O',
-		['K', 'Ca', 'N']
-	],
-	[
-		'What is the chemical formula for Sodium Chloride?',
-		'NaCl',
-		['NaCO3', 'NaOH', 'NaNO3']
-	],
-	[
-		'What is the chemical symbol for Hydrogen?',
-		'H',
-		['C', 'F', 'P']
-	],
-	[
-		'What is the chemical formula for Magnesium Oxide?',
-		'MgO',
-		['MgOH', 'MgCl2', 'MgCO2']
-	],
-	[
-		'What is the chemical formula for Potassium Chloride?',
-		'KCl',
-		['KCO3', 'KOH', 'KNO3']
-	],
-	[
-		'What is the chemical symbol for Copper?',
-		'Cu',
-		['Fe', 'Pb', 'Na']
-	],
-	[
-		'What is the chemical formula for Zinc Sulfate?',
-		'ZnSO4',
-		['ZnCO3', 'ZnOH', 'ZnNO3']
-	],
-	[
-		'What is the chemical symbol for Gold?',
-		'Au',
-		['Ag', 'Pt', 'Fe']
-	],
-	[
-		'What is the chemical formula for Ammonium Chloride?',
-		'NH4Cl',
-		['NH3Cl', 'NH2Cl2', 'NH2CO3']
-	],
-	[
-		'What is the chemical symbol for Silver?',
-		'Ag',
-		['Au', 'Cu', 'Fe']
-	]
+export const SoccerQuestions = [
+  [
+    "Which country has won the most World Cup titles?",
+    "Brazil",
+    ["Argentina", "Germany", "Italy"],
+  ],
+  [
+    "Who is the all-time leading scorer in the English Premier League?",
+    "Alan Shearer",
+    ["Wayne Rooney", "Thierry Henry", "Andy Cole"],
+  ],
+  [
+    "Who won the Ballon d'Or in 2020?",
+    "Robert Lewandowski",
+    ["Lionel Messi", "Cristiano Ronaldo", "Neymar"],
+  ],
+  [
+    "Which team has won the most UEFA Champions League titles?",
+    "Real Madrid",
+    ["Barcelona", "AC Milan", "Liverpool"],
+  ],
+  [
+    "Who is the all-time leading scorer for the Spanish national team?",
+    "David Villa",
+    ["Fernando Torres", "Raul", "David Silva"],
+  ],
+  [
+    "Which country won the first ever World Cup in 1930?",
+    "Uruguay",
+    ["Brazil", "Argentina", "Italy"],
+  ],
+  [
+    "Who won the FIFA Women's World Cup in 2019?",
+    "USA",
+    ["Germany", "England", "France"],
+  ],
+  [
+    "Who is the manager of the Liverpool football club?",
+    "Jurgen Klopp",
+    ["Pep Guardiola", "Jose Mourinho", "Carlo Ancelotti"],
+  ],
+  [
+    "Which player has won the most Ballon d'Or awards?",
+    "Lionel Messi",
+    ["Cristiano Ronaldo", "Michel Platini", "Johan Cruyff"],
+  ],
+  [
+    "Who won the English Premier League in the 2020-21 season?",
+    "Manchester City",
+    ["Manchester United", "Liverpool", "Chelsea"],
+  ],
+  [
+    "Who won the UEFA European Championship in 2016?",
+    "Portugal",
+    ["France", "Germany", "Spain"],
+  ],
+  [
+    "Which team has won the most Copa America titles?",
+    "Argentina",
+    ["Brazil", "Uruguay", "Chile"],
+  ],
+  [
+    "Who is the all-time leading scorer in the history of the UEFA Champions League?",
+    "Cristiano Ronaldo",
+    ["Lionel Messi", "Raul", "Karim Benzema"],
+  ],
+  [
+    "Which player won the Golden Boot in the 2018 FIFA World Cup?",
+    "Harry Kane",
+    ["Kylian Mbappe", "Antoine Griezmann", "Cristiano Ronaldo"],
+  ],
+  [
+    "Who is the all-time leading scorer for the Brazilian national team?",
+    "Pele",
+    ["Neymar", "Ronaldo", "Romario"],
+  ],
+  [
+    "Which team won the first ever English Premier League title in 1992-93?",
+    "Manchester United",
+    ["Liverpool", "Arsenal", "Chelsea"],
+  ],
+  [
+    "Who won the UEFA Champions League in the 2019-20 season?",
+    "Bayern Munich",
+    ["Paris Saint-Germain", "Barcelona", "Real Madrid"],
+  ],
+  [
+    "Which player has won the most FIFA World Cup titles?",
+    "Cafu",
+    ["Pele", "Diego Maradona", "Zinedine Zidane"],
+  ],
+  [
+    "Who is the all-time leading scorer for the German national team?",
+    "Miroslav Klose",
+    ["Gerd Muller", "Jurgen Klinsmann", "Lukas Podolski"],
+  ],
+  [
+    "Which team won the UEFA Europa League in the 2020-21 season?",
+    "Villarreal",
+    ["Manchester United", "Arsenal", "Roma"],
+  ],
+  [
+    "Who won the FIFA Women's World Cup in 2015?",
+    "USA",
+    ["Germany", "Japan", "England"],
+  ],
+  [
+    "Who is the all-time leading scorer for the French national team?",
+    "Thierry Henry",
+    ["Michel Platini", "Zinedine Zidane", "Antoine Griezmann"],
+  ],
+  [
+    "Which team won the English Premier League in the 2015-16 season?",
+    "Leicester City",
+    ["Manchester City", "Chelsea", "Arsenal"],
+  ],
+  [
+    "Who won the UEFA European Championship in 2020?",
+    "Italy",
+    ["England", "Spain", "Belgium"],
+  ],
+  [
+    "Who is the all-time leading scorer for the Argentine national team?",
+    "Lionel Messi",
+    ["Diego Maradona", "Gabriel Batistuta", "Sergio Aguero"],
+  ],
 ];
 
 export const FootballQuestions = [

@@ -1,7 +1,7 @@
 // import logo from '../assets/logo.svg';
 import { useState } from 'react';
 import Quiz from './Quiz';
-import { AnimalQuestions, HistoryQuestions, ScienceQuestions, SportsQuestions, ChemistryQuestions, FootballQuestions, ITQuestions, CarQuestions } from '../assets/Questions';
+import { AnimalQuestions, HistoryQuestions, ScienceQuestions, ChemistryQuestions, SportsQuestions, SoccerQuestions, FootballQuestions, ITQuestions, CarQuestions } from '../assets/Questions';
 import '../styles/App.css';
 
 export const shuffle = (array) => {
@@ -43,11 +43,14 @@ const App = () => {
       case "Science":
         setQuizQuestions(shuffle(ScienceQuestions));
         break;
+      case "Chemistry":
+        setQuizQuestions(shuffle(ChemistryQuestions));
+        break;
       case "Sports":
         setQuizQuestions(shuffle(SportsQuestions));
         break;
-      case "Chemistry":
-        setQuizQuestions(shuffle(ChemistryQuestions));
+      case "Soccer":
+        setQuizQuestions(shuffle(SoccerQuestions));
         break;
       case "Football":
         setQuizQuestions(shuffle(FootballQuestions));
@@ -88,8 +91,9 @@ const App = () => {
             <button className='animals' type="submit" onClick={() => handleClick("Animals")}>Animals &#128058;</button>
             <button className='history' type="submit" onClick={() => handleClick("History")}>History &#128511;</button>
             <button className='science' type="submit" onClick={() => handleClick("Science")}>Science &#128300;</button>
-            <button className='sports' type="submit" onClick={() => handleClick("Sports")}>Sports &#9917;</button>
             <button className='chemistry' type="submit" onClick={() => handleClick("Chemistry")}>Chemistry 	&#129514;</button>
+            <button className='sports' type="submit" onClick={() => handleClick("Sports")}>Sports &#127941;</button>
+            <button className='soccer' type="submit" onClick={() => handleClick("Soccer")}>Soccer &#9917;</button>
             <button className='football' type="submit" onClick={() => handleClick("Football")}>Football &#127944;</button>
             <button className='it' type="submit" onClick={() => handleClick("IT")}>IT &#128187;</button>
             <button className='cars' type="submit" onClick={() => handleClick("Cars")}>Cars &#128663;</button>
