@@ -641,7 +641,7 @@ export const ITQuestions = [
     ["What type of language is HTML?", "Markup Language", ["Programming Language", "Operating System", "Database Language"]],
     ["What is the main function of a computer's CPU?", "Process Data", ["Store Data", "Display Data", "Transfer Data"]],
     ["What type of software is Adobe Photoshop?", "Graphics Editing Software", ["Word Processor", "Spreadsheet Program", "Database Management System"]],
-    ["What does the acronym GPU stand for?", "Graphics Processing Unit", ["Global Processing Unit", "General Processing Unit", "Graphical Processing Unit"]],
+    ["What does the acronym GPU stand for?", "Graphics Processing Unit", ["Global Processing Unit", "General Processing Unit", "Game Processing Unit"]],
     ["What type of language is C++?", "Programming Language", ["Markup Language", "Operating System", "Database Language"]],
     ["What is the purpose of an IP address?", "Identify a Network Device", ["Store Data", "Process Data", "Display Data"]],
     ["What is the main function of a computer's hard drive?", "Store Data", ["Process Data", "Display Data", "Transfer Data"]],
