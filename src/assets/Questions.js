@@ -633,80 +633,130 @@ export const FootballQuestions = [
 
 export const ITQuestions = [
   [
-    "What does HTML stand for?",
-    "Hypertext Markup Language",
-    ["Hyper Technology Markup Language", "Hyperlink Text Management Language", "High Tech Multimedia Language"]
+    "What is the smallest unit of data in a computer?",
+    "Bit",
+    ["Byte", "Nibble", "Megabyte"]
+  ],
+  [
+    "What does HTTP stand for?",
+    "Hypertext Transfer Protocol",
+    ["Hypertext Transmission Protocol", "Hypertext Transfer Process", "Hypertext Transport Protocol"]
+  ],
+  [
+    "What is the name of the first computer programmer?",
+    "Ada Lovelace",
+    ["Grace Hopper", "Alan Turing", "Steve Jobs"]
   ],
   [
     "What is the name of the first computer virus?",
-    "The Creeper Virus",
-    ["The Morris Worm", "The ILOVEYOU Virus", "Stuxnet"]
+    "Creeper",
+    ["ILOVEYOU", "Melissa", "Mydoom"]
   ],
   [
-    "What does CSS stand for?",
-    "Cascading Style Sheets",
-    ["Creative Style Sheets", "Computer Scripting System", "Cascading Script Sheets"]
+    "What does BIOS stand for?",
+    "Basic Input/Output System",
+    ["Basic Internal Operating System", "Binary Input/Output System", "Biosphere Input/Output System"]
   ],
   [
     "What is the name of the first web browser?",
     "WorldWideWeb",
-    ["Netscape Navigator", "Internet Explorer", "Mozilla Firefox"]
+    ["Mosaic", "Netscape Navigator", "Internet Explorer"]
   ],
   [
-    "What does TCP/IP stand for?",
-    "Transmission Control Protocol/Internet Protocol",
-    ["Transportation Control Protocol/Internet Protocol", "Technical Control Protocol/Internet Protocol", "Transmission Control Program/Internet Program"]
-  ],
-  [
-    "What is the name of the first search engine?",
-    "Archie",
-    ["Google", "Yahoo", "Bing"]
-  ],
-  [
-    "What does FTP stand for?",
-    "File Transfer Protocol",
-    ["File Transmission Protocol", "File Transport Process", "File Transfer Process"]
+    "What does IP stand for?",
+    "Internet Protocol",
+    ["Internet Provider", "Internet Port", "Internet Package"]
   ],
   [
     "What is the name of the first computer?",
     "ENIAC",
-    ["Apple I", "IBM PC", "Commodore 64"]
+    ["UNIVAC", "IBM 360", "Apple I"]
   ],
   [
-    "What does PHP stand for?",
-    "Hypertext Preprocessor",
-    ["Personal Home Page", "Programming Hypertext Pages", "Preprocessed Hypertext Pages"]
+    "What does HTML stand for?",
+    "Hypertext Markup Language",
+    ["Hypertext Model Language", "Hyperlink Markup Language", "Hyperspace Modeling Language"]
   ],
   [
-    "What is the name of the first programming language?",
-    "Fortran",
-    ["Cobol", "Lisp", "Basic"]
-  ],
-  [
-    "What does URL stand for?",
+    "What is the full form of URL?",
     "Uniform Resource Locator",
-    ["Universal Resource Locator", "Uniform Request Locator", "Unified Resource Link"]
+    ["Universal Resource Language", "Unified Resource Locator", "Unique Resource Language"]
   ],
   [
-    "What is the name of the first email program?",
-    "MAIL",
-    ["Outlook", "Gmail", "Thunderbird"]
-  ],
-  [
-    "What does XML stand for?",
-    "eXtensible Markup Language",
-    ["eXtensible Multimedia Language", "Extended Markup Language", "Extended Multimedia Language"]
-  ],
-  [
-    "What is the name of the first computer mouse?",
-    "Xerox PARC",
-    ["Apple Mighty Mouse", "Microsoft IntelliMouse", "Logitech MX Master"]
+    "What is the name of the first microprocessor?",
+    "Intel 4004",
+    ["AMD Ryzen", "ARM Cortex", "Qualcomm Snapdragon"]
   ],
   [
     "What does SQL stand for?",
     "Structured Query Language",
-    ["Structured Question Language", "System Query Language", "Software Query Language"]
-  ]
+    ["Structured Question Language", "Standard Query Language", "System Query Language"]
+  ],
+  [
+    "What is the name of the first search engine?",
+    "Archie",
+    ["Yahoo", "Google", "Bing"]
+  ],
+  [
+    "What does VPN stand for?",
+    "Virtual Private Network",
+    ["Virtual Public Network", "Virtual Personal Network", "Visual Private Network"]
+  ],
+  [
+    "What is the name of the first graphical web browser?",
+    "Mosaic",
+    ["Firefox", "Chrome", "Safari"]
+  ],
+  [
+    "What does LAN stand for?",
+    "Local Area Network",
+    ["Large Area Network", "Long Area Network", "Low Area Network"]
+  ],
+  [
+    "What is the name of the first email program?",
+    "MAIL",
+    ["Outlook", "Gmail", "Yahoo Mail"]
+  ],
+  [
+    "What does FTP stand for?",
+    "File Transfer Protocol",
+    ["File Transmission Protocol", "File Transport Protocol", "File Teleport Protocol"]
+  ],
+  [
+    "What is the name of the first programming language?",
+    "Fortran",
+    ["Java", "Python", "C++"]
+  ],
+  [
+    "What does DNS stand for?",
+    "Domain Name System",
+    ["Domain Network System", "Data Name System", "Digital Network System"]
+  ],
+  [
+    "What is the name of the first computer mouse?",
+    "Xerox Alto",
+    ["Apple Lisa", "IBM PC", "Compaq Portable"]
+  ],
+  [
+    "What does SCSI stand for?",
+    "Small Computer System Interface",
+    ["System Control and Storage Interface", "Serial Computer System Interface", "Storage and Control System Interface"]
+  ],
+  [
+    "What is the name of the first computer game?",
+    "Spacewar!",
+    ["Pong", "Tetris", "Pac-Man"]
+  ],
+  [
+    "What does PDF stand for?",
+    "Portable Document Format",
+    ["Personal Data Format", "Public Document Format", "Printable Document Format"]
+  ],
+  [
+    "What is the name of the first handheld mobile phone?",
+    "Motorola DynaTAC",
+    ["Nokia 3210", "Ericsson R380", "BlackBerry 5810"]
+  ],
 ];
 
 export const CarQuestions = [
