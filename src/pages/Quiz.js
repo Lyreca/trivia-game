@@ -3,6 +3,8 @@ import { shuffle } from './App';
 import { useCookies } from 'react-cookie'
 import Fade from 'react-reveal/Fade'
 
+const NUMOFQUESTIONS = 10;
+
 const Quiz = (props) => {
     const [quizNumber, setQuizNumber] = useState(0);
     const [quizScore, setQuizScore] = useState(0);
@@ -12,7 +14,7 @@ const Quiz = (props) => {
     const [cookies, setCookie] = useCookies(['highScore']);
 
     useEffect(() => {
-        if(quizNumber < props.questions.length) {
+        if(quizNumber < NUMOFQUESTIONS) {
             if (props.questions.length > 0) {
                 let answerPool = [];
                 answerPool.push(props.questions[quizNumber][1]);
@@ -61,11 +63,11 @@ const Quiz = (props) => {
     return (
         <div>
             {
-            (quizNumber < props.questions.length) ?
+            (quizNumber < NUMOFQUESTIONS) ?
                 <div className='App-questions'>
                     <Fade>
                         <div className='App-question-box' key={"Question" + quizNumber}>
-                            <h3>Question {quizNumber+1} out of {props.questions.length}</h3>
+                            <h3>Question {quizNumber+1} out of {NUMOFQUESTIONS}</h3>
                             <h4>Q{quizNumber+1}. {props.questions[quizNumber][0]}</h4>
                             <div className='App-answers'>
                                 {answerPool.map((answer, index) => {
@@ -79,7 +81,7 @@ const Quiz = (props) => {
                 </div>
                 : 
                 <div className='App-question-box'>
-                    <h2>Final Score: {quizScore}/{props.questions.length}</h2>
+                    <h2>Final Score: {quizScore}/{NUMOFQUESTIONS}</h2>
                     <h3>High Score: {(cookies.highScore === undefined) ? 0 : cookies.highScore[props.category]}</h3>
                     <button type='submit' className='quiz-answer-button' onClick={() => window.location.reload()}>Play Again</button>
                     <div className='App-results'>
@@ -97,7 +99,6 @@ const Quiz = (props) => {
                                 {quizResults.map((result, index) => {
                                     return (
                                         <tr key={"result" + index}>
-                                            
                                             <td>{(result === props.questions[index][1]) ? <p>&#9989;</p> : <p>&#10060;</p> }</td>
                                             <td>{index+1}. {props.questions[index][0]}</td>
                                             <td>{props.questions[index][1]}</td>
