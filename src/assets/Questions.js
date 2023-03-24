@@ -648,3 +648,81 @@ export const ITQuestions = [
     ["What type of software is Microsoft Excel?", "Spreadsheet Program", ["Word Processor", "Database Management System", "Graphics Editing Software"]],
     ["What type of language is SQL?", "Database Language", ["Programming Language", "Markup Language", "Operating System"]]
 ];
+
+export const CarQuestions = [
+  [
+    "What is the name of the car that holds the record for the fastest production car in the world?",
+    "SSC Tuatara",
+    ["Bugatti Chiron", "Koenigsegg Agera RS", "Hennessey Venom GT"]
+  ],
+  [
+    "What is the name of the electric car that holds the record for the longest range on a single charge?",
+    "Tesla Model S Plaid",
+    ["Ford Mustang Mach-E", "Lucid Air", "Rivian R1T"]
+  ],
+  [
+    "What is the name of the car that was designed by Lamborghini and built by Audi?",
+    "Audi R8",
+    ["Lamborghini Huracan", "Audi RS7", "Lamborghini Aventador"]
+  ],
+  [
+    "What is the name of the car that was built to commemorate the 100th anniversary of BMW?",
+    "BMW i8",
+    ["BMW M8", "BMW Z8", "BMW 8 Series"]
+  ],
+  [
+    "What is the name of the car that is often referred to as the 'Godzilla'?",
+    "Nissan GT-R",
+    ["Toyota Supra", "Mazda RX-7", "Mitsubishi Lancer Evolution"]
+  ],
+  [
+    "Which car company produced the first automobile with an internal combustion engine?",
+    "Benz & Cie",
+    ["Ford", "Chevrolet", "Toyota"]
+  ],
+  [
+    "What is the name of the car that is often referred to as the 'Hellcat'?",
+    "Dodge Challenger",
+    ["Chevrolet Camaro", "Ford Mustang", "Pontiac Firebird"]
+  ],
+  [
+    "What is the name of the car that was designed by Marcello Gandini and produced by Lamborghini from 1974 to 1990?",
+    "Countach",
+    ["Diablo", "Murciélago", "Aventador"]
+  ],
+  [
+    "What is the name of the car that was produced by Porsche from 1964 to 1969 and is regarded as the first Porsche sports car?",
+    "Porsche 911",
+    ["Porsche 356", "Porsche 944", "Porsche 928"]
+  ],
+  [
+    "What is the name of the car company that produces the popular WRX and STI models?",
+    "Subaru",
+    ["Mitsubishi", "Honda", "Nissan"]
+  ],
+  [
+    "What is the name of the car that is often used as a police car in Dubai?",
+    "Bugatti Veyron",
+    ["Ferrari Enzo", "McLaren P1", "Koenigsegg Agera RS"]
+  ],
+  [
+    "What is the name of the car that is often referred to as the 'King of the Hill'?",
+    "Chevrolet Corvette ZR1",
+    ["Dodge Viper ACR", "Ford GT", "Nissan GT-R Nismo"]
+  ],
+  [
+    "What is the name of the car that holds the record for the fastest lap time on the Nürburgring Nordschleife?",
+    "Porsche 911 GT2 RS",
+    ["Lamborghini Aventador SVJ", "McLaren 720S", "Ferrari 488 Pista"]
+  ],
+  [
+    "What is the name of the car that is often referred to as the 'Evo'?",
+    "Mitsubishi Lancer",
+    ["Subaru WRX STI", "Nissan Skyline GT-R", "Toyota Supra"]
+  ],
+  [
+    "What is the name of the car that is often referred to as the 'Raptor'?",
+    "Ford F-150",
+    ["Chevrolet Silverado Trail Boss", "Ram 1500 Rebel", "Toyota Tundra TRD Pro"]
+  ]
+];
